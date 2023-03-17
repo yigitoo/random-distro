@@ -181,4 +181,4 @@ distro_list = [
     "https://fuguita.org/"  # OpenBSD-based live system
 ]
 
-webbrowser.open(random.randint(0, len(distro_list) - 1))
+webbrowser.open(distro_list[random.randint(0, len(distro_list) - 1)], new = 2)
